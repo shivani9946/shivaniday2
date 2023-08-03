@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(203, 203, 207);
+  }
+  
+  header {
+    background-color: #6666ac;
+    color: rgba(24, 23, 23, 0.979);
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  h2 {
+    margin-top: 1.5rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    margin: 0;
+    padding-left: 1.5rem;
+  }
+  
+  footer {
+    background-color: #6666ac;
+    color: #080808;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  /* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+  main {
+    padding: 40px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  main {
+    padding: 60px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  main {
+    padding: 80px;
+  }
+}
